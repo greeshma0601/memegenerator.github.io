@@ -1,0 +1,13 @@
+https://www.w3schools.com/html/html5_canvas.asp
+
+https://www.w3schools.com/graphics/canvas_intro.asp
+
+URL.createObjectURL()
+https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL
+
+The URL.createObjectURL() static method creates a DOMString containing a URL representing the object given in the parameter.
+
+The URL lifetime is tied to the document in the window on which it was created. The new object URL represents the specified File object or Blob object.
+
+To release an object URL, call revokeObjectURL().
+

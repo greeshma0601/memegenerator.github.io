@@ -1,0 +1,52 @@
+body {
+    background-image: url('Sprinkle.svg');
+  }
+.meme-generator{
+    margin: 20px auto;
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(151, 168, 146);
+}
+
+.meme-generator label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.meme-generator input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+#meme{
+    width: 100%;
+}
+
+#download button{
+    background-color: #84749c;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=file]::file-selector-button {
+    border: 2px solid #84749c;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: #84749c;
+    transition: 1s;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+  }
